@@ -71,3 +71,37 @@ form button {
   border-radius: 6px;
   padding: 0.5rem 3rem 0.5rem 1rem;
 }
+
+/* FOOTER */
+.lists,
+.copy {
+  display: flex;
+  justify-content: space-around;
+  font-family: europa, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #eeeeee;
+  padding: 2rem;
+  border-bottom: rgba(201, 201, 201, 0.488) solid 1px;
+}
+
+.lists ul {
+  list-style: none;
+  line-height: 2rem;
+}
+
+.lists a {
+  text-decoration: none;
+  color: rgb(96, 96, 96);
+}
+
+.copy {
+  color: rgb(96, 96, 96);
+}
+
+.app-store img {
+  padding-top: 1rem;
+}
+.app-store {
+  align-self: center;
+}
